@@ -5,9 +5,10 @@ const nextClueWaitTime = 1000;
 const arrayLength = 8;
 // Global variables
 var pattern = []; // make an array of random 8 numbers 1-4
-for(let x = 0; x < arrayLength; x++){
+// to choose random numbers to fill array
+  for(let x = 0; x < arrayLength; x++){
   pattern.push(1 + Math.floor(Math.random() * 4))
-}
+  }
 var progress = 0;
 var gamePlaying = false;
 var tonePlaying = false;
@@ -15,7 +16,7 @@ var volume = 0.5;
 var guessCounter = 0;
 
 function startGame(){
-  // variables will be initialized
+  
   progress = 0;
   gamePlaying = true;
   document.getElementById("startBtn").classList.add("hidden");
