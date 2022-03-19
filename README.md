@@ -34,7 +34,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] Random Pattern is chosen by Computer every time a webpage is refreshed
+- [x] Random Pattern is chosen by Computer every time a webpage is refreshed
 
 ## Video Walkthrough (GIF)
 
